@@ -1,0 +1,25 @@
+{
+    "author": "Porry Chen <porrychen@gmail.com> (porry.org)",
+    "name": "nodejs-sms-demo",
+    "description": "Nodejs SMS DEMO",
+    "version": "0.0.1",
+    "homepage": "https://github.com/porrychen/nodejs-sms-demo",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/porrychen/nodejs-sms-demo.git"
+    },
+    "scripts": {
+        "test": "node app"
+    },
+    "dependencies": {
+        "express": ">= 2.5.8",
+        "jade": ">= 0.20.3",
+        "mongoose": ">= 2.5.7",
+        "connect-mongo": ">= 0.1.7"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
